@@ -32,4 +32,4 @@ jobs:
 
       - name: Run unit tests with nose
         run: |
-           nosetests -v --config=/dev/null
+           nosetests -v --with-spec --spec-color --with-coverage --cover-package=app
